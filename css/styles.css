@@ -248,6 +248,35 @@ header .inner nav ul li .active .menu-item:hover {
       grid-template-rows: 90vh;
 }
 
+@media only screen and (min-width: 800px) {
+  .hero1-txt, .hero2-txt, .hero3-txt {
+    display: block;
+  }
+  .hero1-txt-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .hero1-txt, .hero2-txt, .hero3-txt {
+    display: none;
+  }
+  .hero1-txt-mobile {
+    display: block;
+    z-index: 99;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2 / 5;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 400;
+    font-family: "Julius Sans One", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #191f24;
+  }
+}
+
 .hero1-txt {
   z-index: 99;
   -ms-grid-column: 2;
@@ -261,14 +290,6 @@ header .inner nav ul li .active .menu-item:hover {
   font-size: 110px;
   color: #191f24;
   opacity: 0;
-}
-
-@media only screen and (max-width: 799px) {
-  .hero1-txt {
-    opacity: 1;
-    font-size: 40px;
-    margin-top: 200px;
-  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -287,11 +308,12 @@ header .inner nav ul li .active .menu-item:hover {
 }
 
 .hero2-txt {
-  z-index: 99;
+  z-index: 100;
   -ms-grid-column: 2;
   -ms-grid-column-span: 3;
   grid-column: 2 / 5;
   text-align: center;
+  margin-top: -755px;
   margin-top: -755px;
   font-weight: 400;
   font-family: "Julius Sans One", sans-serif;
@@ -299,14 +321,6 @@ header .inner nav ul li .active .menu-item:hover {
   font-size: 110px;
   color: #191f24;
   opacity: 0;
-}
-
-@media only screen and (max-width: 799px) {
-  .hero2-txt {
-    opacity: 1;
-    margin-top: -847px;
-    font-size: 40px;
-  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -327,7 +341,7 @@ header .inner nav ul li .active .menu-item:hover {
 }
 
 .hero3-txt {
-  z-index: 99;
+  z-index: 101;
   -ms-grid-column: 2;
   -ms-grid-column-span: 3;
   grid-column: 2 / 5;
@@ -339,14 +353,6 @@ header .inner nav ul li .active .menu-item:hover {
   font-size: 110px;
   color: #191f24;
   opacity: 0;
-}
-
-@media only screen and (max-width: 799px) {
-  .hero3-txt {
-    opacity: 1;
-    margin-top: -797px;
-    font-size: 40px;
-  }
 }
 
 @media only screen and (min-width: 800px) {
