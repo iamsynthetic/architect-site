@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/open-props"/>
+    <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
+    <title>Mock Architech Page</title>
+</head>
+<body> 
+    <header>
+        <div class="inner desktop">
+            <a href="#" class="logo">logo</a>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="active"><div class="menu-item">About</div></a></li>
+                    <li><a href="#services" class="active"><div class="menu-item">Services</div></a></li>
+                    <li><a href="#team" class="active"><div class="menu-item">Team</div></a></li>
+                    <li><a href="#projects" class="active"><div class="menu-item">Projects</div></a></li>
+                    <li><a href="#reasons" class="active"><div class="menu-item">Reasons</div></a></li>
+                    <li><a href="#office" class="active"><div class="menu-item">Office</div></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile">
+            <input type="checkbox" id="burger-check">
+            <label for="burger-check" class="label-style">
+                <div class="burger-box"><div class="bar"></div></div>
+            </label>
+            <div class="nav-menu">
+                <ul>
+                    <li><div class="mobile-menu-item"><a href="#about">About</a></div></li>
+                    <li><div class="mobile-menu-item"><a href="#services">Services</a></div></li>
+                    <li><div class="mobile-menu-item"><a href="#team">Team</a></div></li>
+                    <li><div class="mobile-menu-item"><a href="#projects">Projects</a></div></li>
+                    <li><div class="mobile-menu-item"><a href="#reasons">Reasons</a></div></li>
+                    <li><div class="mobile-menu-item"><a href="#office">Office</a></div></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-grid">
+        <div class="hero1-txt">Architecture</div>
+        <div class="hero2-txt">Done In A Way</div>
+        <div class="hero3-txt">Never Done Before</div>
+    </div>
+    <div class="hero1-a"></div>
+    <div class="hero2-a"></div>
+    <div class="hero3-a"></div>
+    <div class="hero1-b"></div>
+    <div class="hero2-b"></div>
+    <div class="hero3-b"></div>
+    <div class="hero1-c"></div>
+    <div class="hero2-c"></div>
+    <div class="hero3-c"></div>
+
+    <div id="about" class="section1 bg-blue-grey">
+        <div class="s1-desktop">
+            <div class="s1-column1">
+                <div class="s1-img1"></div>
+                <div class="s1-img2"></div>
+            </div>
+            <div class="s1-column2">
+                <div class="row">
+                    <div class="s1-titles">
+                        <p class="s1-title1">Find Out What</p>
+                        <p class="s1-title2">We're All About</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="s1-paragraphs">
+                        <div class="sub-col s1-paragraph1">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis eget tellus porta tristique. Cras suscipit quis orci at pharetra. Proin blandit mollis est eu laoreet. Suspendisse potenti.</p>
+                        </div>
+                        <div class="sub-col s1-paragraph2">
+                        <p>Sed ex eros, molestie at eros vel, euismod eleifend orci. Etiam sit amet laoreet enim. Ut vel cursus velit. Pellentesque a lorem id ex bibendum interdum ut vitae massa. Duis augue dolor, dictum et quam id, tincidunt fermentum ante. Quisque vitae diam tristique, maximus nibh non.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="s1-mobile">
+            <div class="s1-column1">
+                <div class="row">
+                    <div class="s1-titles">
+                        <p class="s1-title1">Find Out What</p>
+                        <p class="s1-title2">We're All About</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="s1-paragraphs">
+                        <div class="sub-col s1-paragraph1">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis eget tellus porta tristique. Cras suscipit quis orci at pharetra. Proin blandit mollis est eu laoreet. Suspendisse potenti. Sed ex eros, molestie at eros vel, euismod eleifend orci. Etiam sit amet laoreet enim. Ut vel cursus velit. Pellentesque a lorem id ex bibendum interdum ut vitae massa. Duis augue dolor, dictum et quam id, tincidunt fermentum ante. Quisque vitae diam tristique, maximus nibh non.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s1-column2">
+                <div class="s1-img1"></div>
+                <div class="s1-img2"></div>
+            </div>
+        </div>
+    </div>
+    <div id="services" class="section2 bg-blue">
+        <div class="s2-column1">
+            <div class="s2-txt">
+                <h1 class="s2-title">SERVICES</h1>
+                <p class="s2-paragraph">Aenean pharetra placerat venenatis. Nam ornare ornare purus. Praesent suscipit est diam, in sollicitudin est feugiat et. Sed sollicitudin euismod ipsum</p>
+            </div>
+        </div>
+        <div class="s2-column2">
+            <div class="s2-img1"></div>
+            <div class="s2-img2"></div>
+        </div>
+        
+    </div>
+    <div id="team" class="section3 bg-dark-blue">
+        <div class="s3-row1">
+            <div class="s3-title">MEET THE TEAM</div>
+        </div>
+        <div class="s3-row2">
+            <div id="col1" class="s3-column">
+                <div class="s3-img1"></div>
+                <div class="s3-card s3t1">
+                    <div class="s3-title">Josh</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis optio molestias exercitationem soluta, necessitatibus corrupti laudantium quaerat alias aspernatur accusamus assumenda consequatur deserunt odio iure ad ipsa neque beatae dolores earum. Amet nemo est sunt, blanditiis dolorum unde consequuntur! Omnis enim quae quos? Nam, veritatis voluptate fuga possimus eos nisi.</p>
+                    
+                </div>
+            </div>
+            <div id="col2" class="s3-column">
+                <div class="s3-img2"></div>
+                <div class="s3-card s3t2">
+                    <div class="s3-title">Katy</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis optio molestias exercitationem soluta, necessitatibus corrupti laudantium quaerat alias aspernatur accusamus assumenda consequatur deserunt odio iure ad ipsa neque beatae dolores earum. Amet nemo est sunt, blanditiis dolorum unde consequuntur! Omnis enim quae quos? Nam, veritatis voluptate fuga possimus eos nisi.</p>
+                  
+                </div>
+            </div>
+            <div id="col3" class="s3-column">
+                <div class="s3-img3"></div>
+                <div class="s3-card s3t3">
+                    <div class="s3-title">Francis</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis optio molestias exercitationem soluta, necessitatibus corrupti laudantium quaerat alias aspernatur accusamus assumenda consequatur deserunt odio iure ad ipsa neque beatae dolores earum. Amet nemo est sunt, blanditiis dolorum unde consequuntur! Omnis enim quae quos? Nam, veritatis voluptate fuga possimus eos nisi.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section4 bg-blue">
+        <div class="sec4-img1"></div>
+    </div>
+    <div id="projects" class="section5 bg-blue-grey">
+        <div class="s5-row1">
+            <div class="s5-title">PROJECTS</div>
+        </div>
+        <div class="s5-row2">
+            <ul class="menu">
+                <li>
+                    <span class="section5-link-span" id="section5-link-span1">project 1</span>
+                </li>
+                <li>
+                    <span class="section5-link-span" id="section5-link-span2">project 2</span>
+                </li>
+                <li>
+                    <span class="section5-link-span" id="section5-link-span3">project 3</span>
+                </li>
+                <li>
+                    <span class="section5-link-span" id="section5-link-span4">project 4</span>
+                </li>
+                <li>
+                    <span class="section5-link-span" id="section5-link-span5">project 5</span>
+                </li>
+            </ul>
+        </div>
+        <div class="s5-row3">
+            <div id="link1-section" class="s5-link-content show">
+                <div class="s5-content-box">
+                    <div class="s5-content-title">
+                        <p>Project 1</p>
+                    </div>
+                    <div class="s5-content-para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, 
+                            officia! Odio facere quis voluptatem nulla dignissimos culpa, eum maiores 
+                            minus similique, accusamus voluptatum enim blanditiis. Sint distinctio dolorum 
+                            vitae, dolore quisquam omnis molestiae laborum. Quibusdam ipsa ut dignissimos, 
+                            quae harum mollitia dolores iure non inventore! Nostrum id porro perspiciatis 
+                            error tenetur vitae atque similique totam fugiat. Pariatur, est id sed veritatis 
+                            nemo ad blanditiis obcaecati veniam repelle</p>
+                    </div>
+                </div>
+            </div>
+            <div id="link2-section" class="s5-link-content hide">
+                <div class="s5-content-box">
+                    <div class="s5-content-title">
+                        <p>Project 2</p>
+                    </div>
+                    <div class="s5-content-para">
+                        <p>Unde dolor suscipit sequi 
+                            maiores ratione incidunt fugit quidem aliquam tempora doloribus odio optio, soluta 
+                            porro perferendis non qui hic vitae repudiandae dolores, voluptate praesentium, 
+                            accusantium delectus esse. Labore qui id repudiandae, vel dolor optio voluptates 
+                            ducimus reprehenderit accusantium sapiente iusto obcaecati libero hic odio quas 
+                            veritatis unde aperiam minus itaque illo.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="link3-section" class="s5-link-content hide">
+                <div class="s5-content-box">
+                    <div class="s5-content-title">
+                        <p>Project 3</p>
+                    </div>
+                    <div class="s5-content-para">
+                        <p>Voluptatibus minus nam laudantium hic numquam facilis vitae et molestias sed, 
+                            aliquid culpa natus exercitationem ex sint sapiente iusto, perferendis autem 
+                            eveniet? Dolor doloremque, libero odit quaerat cupiditate eaque excepturi assumenda 
+                            deleniti! Ipsam, magnam quis aliquam quasi dicta nemo tenetur rerum nihil 
+                            consequatur ipsum labore ut voluptate voluptatibus facilis vero sit neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="link4-section" class="s5-link-content hide">
+                <div class="s5-content-box">
+                    <div class="s5-content-title">
+                        <p>Project 4</p>
+                    </div>
+                    <div class="s5-content-para">
+                        <p>Laudantium harum deleniti fugit aliquid quidem porro ex necessitatibus rerum, 
+                            sint laboriosam distinctio molestias, praesentium sed corporis. Dicta maxime 
+                            minus eum totam nam accusamus. Maiores, nulla. Quisquam, ab reprehenderit! 
+                            In accusantium similique, ratione deserunt ducimus quae, quis delectus animi 
+                            quasi debitis accusamus corporis voluptate quo quam non autem, saepe id aut totam.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="link5-section" class="s5-link-content hide">
+                <div class="s5-content-box">
+                    <div class="s5-content-title">
+                        <p>Project 5</p>
+                    </div>
+                    <div class="s5-content-para">
+                        <p>Ut, earum quidem praesentium deserunt excepturi, repellat nostrum libero quam 
+                            doloribus exercitationem accusamus dicta sapiente incidunt beatae itaque soluta 
+                            perferendis harum mollitia, perspiciatis laborum? Dignissimos minus eum numquam 
+                            ab quam quisquam reiciendis alias rerum ratione cupiditate nesciunt pariatur 
+                            dolore asperiores obcaecati, non facilis deserunt quas nemo eligendi veritatis
+                            mollitia praesentium earum quibusdam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="reasons" class="section8 bg-blue">
+        <div class="row">
+            <div class="column1">
+                <div class="col1-txt">
+                    <img src="/src/assets/checkmark.png" alt="checkmark">
+                </div>
+                <div class="col2-txt">
+                    <div class="section-title">WE HAVE THE BEST IDEAS</div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="col1-txt">
+                    <ul>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim assumenda cupiditate, dolor facere illum temporibus doloremque alias quaerat nobis sapiente?</p>
+                        </li>
+                        <li>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, mollitia.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column1">
+                <div class="col1-txt">
+                    <img src="/src/assets/checkmark.png" alt="checkmark">
+                </div>
+                <div class="col2-txt">
+                    <div class="section-title">WE KNOW OUR STUFF</div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="col1-txt">
+                     <ul>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim assumenda cupiditate, dolor facere illum temporibus doloremque alias quaerat nobis sapiente?</p>
+                        </li>
+                        <li>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, mollitia.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column1">
+                <div class="col1-txt">
+                    <img src="/src/assets/checkmark.png" alt="checkmark">
+                </div>
+                <div class="col2-txt">
+                    <div class="section-title">WE HAVE DECADES OF EXPERIENCE</div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="col1-txt">
+                    <ul>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim assumenda cupiditate, dolor facere illum temporibus doloremque alias quaerat nobis sapiente?</p>
+                        </li>
+                        <li>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, mollitia.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column1">
+                <div class="col1-txt">
+                    <img src="/src/assets/checkmark.png" alt="checkmark">
+                </div>
+                <div class="col2-txt">
+                    <div class="section-title">WE COME FROM ALL OVER THE WORLD</div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="col1-txt">
+                     <ul>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim assumenda cupiditate, dolor facere illum temporibus doloremque alias quaerat nobis sapiente?</p>
+                        </li>
+                        <li>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, mollitia.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column1">
+                <div class="col1-txt">
+                    <img src="/src/assets/checkmark.png" alt="checkmark">
+                </div>
+                <div class="col2-txt">
+                    <div class="section-title">WE LOVE WHAT WE DO</div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="col1-txt">
+                     <ul>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim assumenda cupiditate, dolor facere illum temporibus doloremque alias quaerat nobis sapiente?</p>
+                        </li>
+                        <li>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, mollitia.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section6 bg-dark-blue">
+        <div class="sec6-img1"></div>
+    </div>  
+    <div id="office" class="section7 bg-blue-grey">
+        <div class="s7-row1">
+            <div class="s7-title">OUR OFFICE</div>
+        </div>
+        <div class="s7-row2">
+            <div class="media-scroller-nav">
+                <button id="btn-prev">
+                    prev
+                </button>
+                <button id="btn-next">
+                    next
+                </button>
+            </div>
+            <div id="media-scroller" class="media-scroller snaps-inline">
+                <div class="all-media">
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img1.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img2.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img3.jpg" alt="">
+                    </div>
+                    <div id="media-scroll"  class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img4.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img5.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img6.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img7.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img8.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img9.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img10.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img11.jpg" alt="">
+                    </div>
+                    <div id="media-scroll" class="media-element">
+                        <img class="vertical-rectangle" src="./assets/gallery/img12.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section9 bg-blue-grey">
+        <div class="sec9-img1">
+        </div>
+        <div class="sec9-img2">
+            <div class="s9-column2">
+                <div class="row">
+                    <div class="s9-titles">
+                        <p class="s9-title1">Crafting Dreams</p>
+                        <p class="s9-title2">Into Your Reality</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="s9-paragraphs">
+                        <div class="sub-col s9-paragraph1">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sequi non necessitatibus laboriosam. Provident cumque minus maiores hic fugit nihil ullam incidunt id, amet saepe molestias voluptatem dignissimos facere nesciunt cum harum error doloremque, nemo doloribus vero nulla, veniam velit laborum. Rem et quisquam expedita iusto. Blanditiis rem mollitia illo officia id tempora labore expedita possimus illum dolorum, libero cupiditate.</p>
+                        </div>
+                        <div class="sub-col s9-paragraph2">
+                            <p>Curabitur mauris magna, porta sit amet suscipit sit amet, pharetra sed arcu. Maecenas et dui ac est convallis finibus pharetra quis nibh. Proin nunc nulla, mattis nec ante vitae, scelerisque vulputate elit. Morbi convallis tellus nunc, in posuere sem molestie in. Nullam convallis nulla vitae purus porttitor, et accumsan nulla hendrerit. Pellentesque sagittis varius lacinia. Nunc id scelerisque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section10 bg-blue">
+        <div class="row1">
+            <div class="column1">
+                <div class="col1-txt">
+                    <div class="section-title">Lets Make A Connection</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis suscipit molestiae ex nemo id? Earum eaque animi est eos rerum sit aperiam omnis ab totam?</p>
+                </div>
+                <div class="sub-col bottom-row">
+                    <ul>
+                        <li>privacy policy</li>
+                        <li><a href="http://www.facebook.com" target="_blank" class="active">facebook</a></li>
+                        <li><a href="http://www.instagram.com" target="_blank" class="active">instagram</a></li>
+                        <li><a href="http://www.youtube.com" target="_blank" class="active">youtube</a></li>
+                        <li><a href="http://www.tiktok.com" target="_blank" class="active">tiktok</a></li>
+                        <li><a href="http://www.linkedin.com" target="_blank" class="active">linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="sub-col linkset1">
+                    <a href="#about" class="active"><div class="section-title">About</div></a>
+                    <a href="#services" class="active"><div class="section-title">Services</div></a>
+                    <a href="#team" class="active"><div class="section-title">Team</div></a>
+                    <a href="#projects" class="active"><div class="section-title">Projects</div></a>
+                    <a href="#reasons" class="active"><div class="section-title">Reasons</div></a>
+                    <a href="#office" class="active"><div class="section-title">Office</div></a>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div class="section11 bg-dark-blue">
+        <div class="column1">
+            <div class="col1-txt">
+                <h1 class="section-title">SITE NAME</h1>
+                
+            </div>
+        </div>
+        <div class="column2">
+            <div class="col2-txt">
+                <h1 class="section-title">BUILT 2022</h1>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./js/index.js"></script> 
+    
+</body>
+</html>
